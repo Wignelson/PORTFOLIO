@@ -3,29 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social</title>
-     <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Portfólio de Wigner Cordeiro, desenvolvedor front-end.">
+    <title>Wigner Cordeiro | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 <body>
-    <h1>Minhas redes sociais</h1>
-    <h2>Quem sou eu?</h2>
-   <img src="wigner.jpeg" alt="Minha foto">
-   <p> Meu nome é <b>Wigner Cordeiro</b>, Sou desenvolvedor front-end, formado em Análise e Desenvolvimento de Sistemas, com foco em JavaScript e React. Busco minha primeira oportunidade para crescer na área.
-   </p>
-   <h2>Como falar comigo?</h2>
-   <ul>
-    <li><img src="icone-github.png" alt="github"><a href="https://github.com/Wignelson"> Para me enocontrar no Git Hub.</a></li>
-    
-    <li><img src="icone-facebook.png" alt="facebook"> <a href="https://www.facebook.com/wigner.cordeiro">Para me encontrar no Facebook.</a></li>
-    
-<li><img src="icone-instagram.png" alt="instagram"><a href="https://instagram.com">Para me encontrar no Insta.
-    </a></li>
-  <li><img src="icone-linkedin.png" alt="linkedin"><a href="https://www.linkedin.com/in/wigner-cordeiro">Para me encontrar no Linkedin.</a></li>
-    
-       
-</ul>
+    <header class="topo">
+        <a class="marca" href="#inicio">WC<span>.</span></a>
+        <nav aria-label="Navegação principal">
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
 
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-texto">
+                <p class="etiqueta">OLÁ, EU SOU</p>
+                <h1>Wigner <span>Cordeiro</span></h1>
+                <p class="resumo">Desenvolvedor front-end apaixonado por transformar ideias em experiências digitais.</p>
+                <a class="botao" href="#projetos">Conheça meus projetos <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="foto-moldura">
+                <img src="wigner.jpeg" alt="Foto de Wigner Cordeiro">
+            </div>
+        </section>
 
+        <section class="secao sobre" id="sobre">
+            <p class="etiqueta">UM POUCO SOBRE MIM</p>
+            <h2>Quem sou eu?</h2>
+            <p>Meu nome é <strong>Wigner Cordeiro</strong>. Sou formado em Análise e Desenvolvimento de Sistemas e desenvolvedor front-end, com foco em JavaScript e React. Gosto de criar interfaces claras, funcionais e acessíveis. Estou em busca da minha primeira oportunidade na área para continuar aprendendo e contribuir com projetos reais.</p>
+        </section>
+
+        <section class="secao" id="projetos">
+            <p class="etiqueta">O QUE TENHO FEITO</p>
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+                <article class="projeto">
+                    <span class="numero">01</span>
+                    <h3>Site de Barbearia</h3>
+                    <p>Projeto de site para barbearia, pensado para apresentar o espaço e seus serviços de um jeito direto e convidativo. Um exercício de construção de páginas e organização visual para um negócio local.</p>
+                    <a href="https://github.com/Wignelson" target="_blank" rel="noopener noreferrer">Ver no GitHub <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="projeto">
+                    <span class="numero">02</span>
+                    <h3>Meu Portfólio</h3>
+                    <p>Este portfólio apresenta um pouco sobre mim, minhas habilidades e projetos. Foi criado para reunir minhas informações profissionais e facilitar o contato por meio das minhas redes.</p>
+                    <a href="https://github.com/Wignelson" target="_blank" rel="noopener noreferrer">Ver no GitHub <span aria-hidden="true">↗</span></a>
+                </article>
+            </div>
+        </section>
+
+        <section class="secao contato" id="contato">
+            <p class="etiqueta">VAMOS CONVERSAR?</p>
+            <h2>Me encontre nas redes</h2>
+            <p>Estou aberto a conexões, oportunidades e boas conversas sobre tecnologia.</p>
+            <div class="redes">
+                <a href="https://github.com/Wignelson" target="_blank" rel="noopener noreferrer"><img src="icone-github.png" alt="">GitHub</a>
+                <a href="https://www.linkedin.com/in/wigner-cordeiro-7b0b1a1b6/" target="_blank" rel="noopener noreferrer"><img src="icone-linkedin.png" alt="">LinkedIn</a>
+                <a href="https://api.whatsapp.com/send?phone=5511934744689"><span class="icone-whatsapp" aria-hidden="true">☎</span>WhatsApp</a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="icone-instagram.png" alt="">Instagram</a>
+                <a href="https://www.facebook.com/wigner.cordeiro" target="_blank" rel="noopener noreferrer"><img src="icone-facebook.png" alt="">Facebook</a>
+            </div>
+        </section>
+    </main>
+    <footer>© 2026 Wigner Cordeiro · Feito com dedicação</footer>
 </body>
 </html>
